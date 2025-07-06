@@ -14,8 +14,8 @@
 
 ---
 
-```
 ## Project Structure
+```
 ocr_project/
 ├── dataset/ # Raw images, labels for detection, cropped words for recognition
 ├── models/ # Saved weights for detection & recognition
