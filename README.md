@@ -14,6 +14,7 @@
 
 ---
 
+```
 ## Project Structure
 ocr_project/
 ├── dataset/ # Raw images, labels for detection, cropped words for recognition
@@ -22,16 +23,22 @@ ocr_project/
 ├── scripts/ # Scripts for training and evaluation
 ├── ocr_pipeline.py # Main class for detection + recognition pipeline
 ├── README.md
+```
 
 ---
 
 ## Train detection
+```
 Notebook: ocr_text_detection.ipynb
+```
 
 ## Train recognition
+```
 Notebook: scripts/ocr_text_recognition.ipynb
+```
 
 ## Run end-to-end OCR
+```
 from ocr_pipeline import OCRPipeline
 
 ocr = OCRPipeline(
@@ -43,3 +50,4 @@ ocr = OCRPipeline(
 )
 
 ocr.predict(<image_url>)
+```
