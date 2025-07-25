@@ -1,4 +1,4 @@
-# OCR Pipeline for Scene Text Detection & Recognition
+# OCR System for Detecting and Recognizing Text in Real-World Images
 
 > **End-to-end OCR system**: combines text detection (YOLOv11) with text recognition (CRNN + CTC) for reading text in real-world images.
 
