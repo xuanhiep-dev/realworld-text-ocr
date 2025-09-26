@@ -76,11 +76,11 @@ ocr.predict(<image_url>)
 🤖 **OCR System Output:**  
 - 🟩 **Detected Regions**: 5 bounding boxes  
 - 🔠 **Recognized Text**:  
-  1. **COFFEE HOUSE**  
-  2. **SALE 50%**  
-  3. **OPEN**  
-  4. **TAXI**  
-  5. **BUSES**
+  **COFFEE HOUSE** - 0.95   
+  **SALE 50%** - 0.92  
+  **OPEN** - 0.89  
+  **TAXI** - 0.87  
+  **BUSES** - 0.84
 
 ---
 
