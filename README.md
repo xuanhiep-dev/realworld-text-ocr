@@ -67,18 +67,22 @@ ocr = OCRPipeline(
 ocr.predict(<image_url>)
 ```
 
-## Example Output
-👤 Input Image:
-(Street scene with multiple signboards)
+---
 
-🤖 OCR Output:
-Detected regions: 5 bounding boxes
-Recognized text:
-- "COFFEE HOUSE"
-- "SALE 50%"
-- "OPEN"
-- "TAXI"
-- "BUSES"
+## Example Output
+👤 **Input Image:**  
+*(Street scene with multiple signboards)*  
+
+🤖 **OCR System Output:**  
+- 🟩 **Detected Regions**: 5 bounding boxes  
+- 🔠 **Recognized Text**:  
+  1. **COFFEE HOUSE**  
+  2. **SALE 50%**  
+  3. **OPEN**  
+  4. **TAXI**  
+  5. **BUSES**
+
+---
 
 ## Roadmap
 - Integrate Transformer-based recognizer (e.g., TrOCR).
